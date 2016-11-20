@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>&hearts; canvas</title>
+    <style>
+      canvas{
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id='canvas'></canvas>
+    <script>
+      var canvas = document.getElementById('canvas')
+      var context = canvas.getContext('2d')
+      context.fillStyle = "blue"
+      context.fillRect(0,0,120,70)
+    </script>
+  </body>
+</html>
