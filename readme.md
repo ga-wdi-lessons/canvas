@@ -3,12 +3,12 @@
 ## Learning Objectives
 
 - Explain what canvas is and why we use it
-- Draw pixels using a 2d context
+- Draw graphics using a 2d context
 - Build a game using canvas
 
 ## Framing
 
-The HTML5 `canvas` element is used to draw graphics, using JavaScript.
+The HTML5 `canvas` element is used to draw graphics, using JavaScript. It was designed by Apple in 2004.
 
 ## You do: What Can Canvas Do?
 
@@ -63,7 +63,9 @@ ctx.fillStyle = 'rgba(100,200,100,.5)'
 
 ![](http://www.crwflags.com/fotw/images/i/is-u1897.gif)
 
-Bonus! Try the flag of Scotland
+Bonus! Try the flag of france:
+
+![](http://flags.fmcdn.net/data/flags/normal/fr.png)
 
 ## More Shapes With Canvas
 
@@ -90,7 +92,7 @@ ctx.fill()
 ### Drawing Circles
 
 ```js
-ctx.moveTo(10,20) // x and y to start drawing
+ctx.moveTo(30,20) // x and y to start drawing
 ctx.arc(20,20,10,0,Math.PI*2)
 /*      |  |  |  | |- The end angle. 2*pi == 360 (1.5 is 3/4)
         |  |  |  |- The start angle. 0 == start (1 is 1/2)
@@ -109,6 +111,10 @@ stroke:canvas::border:css
 ## You do: Draw a Smiley face!
 
 Draw two circles for eyes, and half circle for the mouth
+
+### Bonus!
+
+Make one of the eyes wink. When the user clicks on the canvas, draw a half-circle for one of the eyes.
 
 ## Break
 
